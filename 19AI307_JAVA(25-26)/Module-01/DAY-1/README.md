@@ -18,7 +18,9 @@ Hello, [name]
 1.	Start the program.
 2. Declare a variable to store the customer's name.
 3. Read the name as input from the user.
+   
 4.Display the message "Hello, [name]".
+
 5.End the program.
 
 ## PROGRAM:
@@ -52,3 +54,4 @@ public class Main{
 ## RESULT:
 
 The output for the following program is executed successfully.
+
