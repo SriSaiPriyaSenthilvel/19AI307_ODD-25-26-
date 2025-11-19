@@ -47,7 +47,9 @@ public class Main
 
 ## OUTPUT:
 
+<img width="792" height="270" alt="image" src="https://github.com/user-attachments/assets/8825b0bb-431e-4faa-a257-b7d7b88e1a18" />
 
 ## RESULT:
 
 Thus, the program to calculate the factorial of a number using a for loop was successfully executed.
+
