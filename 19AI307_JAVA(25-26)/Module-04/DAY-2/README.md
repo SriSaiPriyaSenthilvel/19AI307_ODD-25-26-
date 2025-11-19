@@ -25,13 +25,11 @@ For each flight, print:
 To write a java program to simulate this system using the Singleton pattern.
 
 ## ALGORITHM :
-1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	
-
-
-
-
+1.	Start the program and create a Singleton class RadarControlTower with a private       constructor and a static instance.
+2.	Provide a getInstance() method to ensure only one tower object is created and         shared.
+3.	Maintain a flight counter inside the tower and increment it whenever a flight         registers.
+4.	In the main() method, read the number of flights and their names from the user.
+5.	For each flight, access the same tower instance, register the flight, and display     the total number of registered flights.
 
 ## PROGRAM:
  ```
@@ -84,3 +82,4 @@ public class prog {
 ## RESULT:
 
 Thus, the java program has been implemented successfully and also the output is obtained.
+
