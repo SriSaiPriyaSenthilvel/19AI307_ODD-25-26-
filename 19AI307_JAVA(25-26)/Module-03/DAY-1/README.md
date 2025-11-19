@@ -19,7 +19,7 @@ To build an inheritance-based Java program that calculates the final price of go
 3.	Create a base class Customer with attributes: customerId, name, purchaseWeight, and goldRatePerGram.
 4.	Create method getDiscountRate() in base class returning 0 (default).
 5.	Create method calculateFinalPrice() that:
-calculates discount per gram → discountAmount = goldRatePerGram *      (discountRate/100)
+calculates discount per gram → discountAmount = goldRatePerGram *      (discountRate/100) and 
  calculates effective rate → effectiveRate = goldRatePerGram - discountAmount
 6. Override display() in base class to show general customer details.
 7. Create child class RegularCustomer
@@ -159,3 +159,4 @@ public class GoldRateSystem {
 ## RESULT:
 
 The program has been executed successfully and the output has been obtained.
+
