@@ -15,12 +15,17 @@ To write a Java program to simulate this elevator logic for a given floor number
 
 ## ALGORITHM :
 1.	Start the program.
-2.	Import the necessary package 'java.util'
-3.	
-
-
-
-
+2. Import the required package java.util.Scanner to read user input.
+3.	Create a Scanner object to accept the floor number from the user.
+4.	Read the floor number and store it in a variable.
+5.	Check if the number is divisible by both 3 and 5:
+   If true, display “Skipped”.
+6. Else, check if the number is divisible by 3 only:
+   If true, display “Beware!”.
+7. Else, check if the number is divisible by 5 only:
+   If true, display “Blessings!”.
+8. Else, if none of the above conditions are satisfied, display the floor number.
+9. End the program.
 
 ## PROGRAM:
  ```
@@ -62,4 +67,3 @@ public class Main{
 ## RESULT:
 
 The output for the following java program is executed successfully.
-
