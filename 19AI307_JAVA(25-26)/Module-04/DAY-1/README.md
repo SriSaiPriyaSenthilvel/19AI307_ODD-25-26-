@@ -9,13 +9,17 @@ Write a program that reads an integer from the user. The program must reject any
 To write a program that reads an integer from the user. The program must reject any negative number by throwing a special error. Design a custom exception to handle this and message to display if the user enters a negative number.
 
 ## ALGORITHM :
+
 1.	Start the program.
 2.	Import the necessary package 'java.util'
-3.	
-
-
-
-
+3.	Create a custom exception class named NegativeNumberException that extends the Exception class.
+4.	Inside the main method, create a Scanner object to read an integer from the user.
+5.	Read the integer input from the user and store it in a variable.
+6.	Use a try block to check whether the entered number is negative.
+7.	If the number is less than 0, throw a new NegativeNumberException with an appropriate message.
+8.	If the number is valid (non-negative), display the number as valid input.
+9.	Catch the NegativeNumberException and display the custom error message.
+10.	End the program.
 
 ## PROGRAM:
  ```
